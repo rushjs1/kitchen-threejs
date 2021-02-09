@@ -459,7 +459,7 @@ loader.load("/food/models/gltfFormat/apple.glb", glb => {
   glb.scene.castShadow = true;
 
   scene.add(glb.scene);
-
+  camera.lookAt(glb.scene);
   const tick = () => {
     const elapsed = clock.getElapsedTime();
 
@@ -499,8 +499,8 @@ loader.load("/food/models/gltfFormat/apple.glb", glb => {
     camera.position.x = Math.cos(ghost3Angle) * 7 + Math.sin(elapsed * 0.12);
     //camera.position.y = Math.sin(elapsed) + 3;
 
-    camera.position.z =
-      Math.abs(Math.cos(ghost3Angle) * 7 + Math.sin(elapsed * 0.32)) + 6;
+    //camera.position.z =
+    //Math.abs(Math.cos(ghost3Angle) * 7 + Math.sin(elapsed * 0.32)) + 6;
 
     //call renderer again
 
