@@ -513,3 +513,5 @@ loader.load("/food/models/gltfFormat/apple.glb", glb => {
 
   tick();
 });
+
+console.log("test");
