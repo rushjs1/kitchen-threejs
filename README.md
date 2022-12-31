@@ -1,3 +1,3 @@
 # kitchen-threejs
 
-https://powerful-river-53047.herokuapp.com/
+https://heroic-donut-3b5b2f.netlify.app/
